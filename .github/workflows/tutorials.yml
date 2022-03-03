@@ -22,7 +22,7 @@ jobs:
         pip install jupyter nbconvert 
     - name: Convert notebook
       env:
-        GH_TOKEN:  ${{ secrets.GITHUB_TOKEN }}
+        GH_TOKEN:  ${{ secrets.BOT_ACCESS_TOKEN  }}
       run: |
          jupyter nbconvert --to html ./tutorials/*.ipynb  
          rm ./tutorials/*.ipynb 
