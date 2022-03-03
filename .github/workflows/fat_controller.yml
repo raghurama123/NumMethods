@@ -25,7 +25,7 @@ jobs:
       with:
         python-version: '3.x'
     - run: pip install https://github.com/lucydot/choochoo/archive/main.zip
-    - run: pip list
+    - run: pip show choochoo
     - run: ${{ format('python ./scripts/check_instructor_ticket.py {0}', github.actor) }}
       
   check_student_ticket:
