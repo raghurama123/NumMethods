@@ -1,6 +1,6 @@
 ---
 name: Choochoo student thread
-about: To monitor my progress
+about: To monitor my progress in the course
 title: Choochoo student thread
 labels: student
 assignees: ''
