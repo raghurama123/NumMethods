@@ -1,4 +1,4 @@
-# ChooChoo! 📋 ✔️
+# ChooChoo-template 📋 ✔️
 
 ChooChoo is a **Ch**ecklist t**oo**l for educators. 
 
