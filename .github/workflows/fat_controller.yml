@@ -24,9 +24,9 @@ jobs:
     - uses: actions/setup-python@v2
       with:
         python-version: '3.x'
-    - run: pip install https://github.com/lucydot/choochoo/archive/main.zip
+    - run: pip install --user https://github.com/lucydot/choochoo/archive/main.zip
     - run: pip show choochoo
-    - run: ${{ format('python ./scripts/check_instructor_ticket.py {0}', github.actor) }}
+    - run: ${{ format('python ~/.local/choochoo/scripts/check_instructor_ticket.py {0}', github.actor) }}
       
   check_student_ticket:
     if: github.event.label.name == 'student' 
