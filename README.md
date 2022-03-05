@@ -1,4 +1,4 @@
-# ChooChoo-template 📋 ✔️
+<img src="https://github.com/lucydot/ChooChoo/raw/main/docs/images/icon2.png" width="800">
 
 ChooChoo is a **Ch**ecklist t**oo**l for educators. 
 
