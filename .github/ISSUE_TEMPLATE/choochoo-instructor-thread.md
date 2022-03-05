@@ -14,5 +14,5 @@ Welcome to Choochoo the checklist tool! :train:
 Here are some commands you might like use in this thread:
 - **Add students to this repo**: `choochoo add @username as student`
 - **Add instructors to this repo**: `choochoo add @username as instructor`
-- **Monitor class progress**: `choochoo monitor class progress`
+- **Monitor class progress**: `choochoo summarise class progress`
 - **List all possible choochoo commands**: `choochoo list commands`
