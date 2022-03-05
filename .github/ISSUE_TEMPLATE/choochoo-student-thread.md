@@ -15,19 +15,11 @@ Your personal checklist is generated below. You can also interact with me, chooc
 To list all possible choochoo commands type `choochoo list commands` in comment box below.
 
 
-### Running Python
-|[Tutorial](running_python.ipynb) | [Link](https://nu-cem.github.io/CompPhys/2021/08/02/01-Running_Python) |
-
-| | objective | tutorials | questions | links |
-|----|----|----|----|----|
-|- [ ]| open and save a Jupyter Notebook|| | | 
-|- [ ]| use basic Markdown in a notebook|[T](markdown.ipynb) |[Q](070122_markdown.yml) || 
+### Running Python | [tutorials](running_python.ipynb)  |  [links](https://nu-cem.github.io/CompPhys/2021/08/02/01-Running_Python)  | 
+- [ ] open and save a Jupyter Notebook |    
+- [ ] use basic Markdown in a notebook | [tutorials](markdown.ipynb)  | [questions](070122_markdown.yml)  |  
 
 
-### Lists
-|[Tutorial](lists.ipynb) | [Link](https://nu-cem.github.io/CompPhys/2021/08/02/01-lists) |
-
-| | objective | tutorials | questions | links |
-|----|----|----|----|----|
-|- [ ]| create a list|| | | 
-|- [ ]| add  to a list|[T](addlists.ipynb) |[Q](070122_lists.yml) || 
+### Lists | [tutorials](lists.ipynb)  |  [links](https://nu-cem.github.io/CompPhys/2021/08/02/01-lists)  | 
+- [ ] create a list |    
+- [ ] add  to a list | [tutorials](addlists.ipynb)  | [questions](070122_lists.yml)  |  
