@@ -1,6 +1,6 @@
 name: Question thread
 description: Propose a question to include in this ChooChoo project
-title: "Question proposal: "
+title: "Question proposal"
 labels: ["question proposal"]
 body:
   - type: markdown
@@ -8,6 +8,13 @@ body:
       value: |
         For guidance on proposing a question please see the ChooChoo documentation [here]().
         Your proposed question and answer should be written [in markdown]().
+  - type: input
+    id: authors
+    attributes:
+      label: Authors
+      description: Provide Github username(s) for the authors of the proposed question 
+    validations:
+      required: true
   - type: input
     id: title
     attributes:
