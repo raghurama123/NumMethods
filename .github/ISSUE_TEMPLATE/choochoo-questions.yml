@@ -8,14 +8,14 @@ body:
       value: |
         For guidance on proposing a question please see the ChooChoo documentation [here]().
         Your proposed question and answer should be written [in markdown]().
-  - type: input
+  - type: textarea
     id: question
     attributes:
       label: Question
       description: What is your proposed question?
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: answer
     attributes:
       label: Answer
