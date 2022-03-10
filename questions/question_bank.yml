@@ -1,6 +1,8 @@
 questions:
 - title: lists
-  authors: @regn @re
+  authors: 
+    - @regn 
+    - @re
   checklist_items: 
     - lists
     - markdown
@@ -15,7 +17,9 @@ questions:
   
   `is it?`
 - title: markdown
-  authors: @sfvs @sfb
+  authors: 
+    - @sfvs 
+    - @sfb
   checklist_items:
    - markdown
   question: |
