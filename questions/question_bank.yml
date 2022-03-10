@@ -1,5 +1,4 @@
-questions:
-- title: lists
+lists:
   authors: 
     - regn 
     - re
@@ -8,15 +7,15 @@ questions:
     - markdown
   question: |
     Hey yes
-  
+
     ` I wonder what it's like`
-  
+
     yuyp
   answer: |
     No waY!!
-  
+
     `is it?`
-- title: markdown
+markdown:
   authors: 
     - sfvs 
     - sfb
@@ -26,6 +25,6 @@ questions:
     hellow
   answer: |
     If ti isn't.
-  
+
     [here](https://google.com).
-    
+
