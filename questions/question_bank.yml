@@ -1,5 +1,5 @@
 - question:
-  name: lists and things
+  title: lists and things
   authors: 
     - regn 
     - re
@@ -17,7 +17,7 @@
 
     `is it?`
 - question:
-  name: markdown
+  title: markdown
   authors: 
     - sfvs 
     - sfb
