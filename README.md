@@ -2,11 +2,13 @@
 
 ChooChoo is a **Ch**ecklist t**oo**l for educators. 
 
-✨ ChooChoo encourages learning through self-assessment, collaboration and diagnostic teaching. You can read more about the pedagogy underlying ChooChoo [here]().
+⚠️ ChooChoo is currently under development. It has a planned release date of September 2022
 
-✨ This repository contains an empty ChooChoo project for those who want to start from scratch. Setup is quick and doesn't require any downloads - see the [Quick Start guide]().
+✨ ChooChoo encourages learning through self-assessment, collaboration and diagnostic teaching. You can read more about the pedagogy underlying ChooChoo here (TODO: insert link).
 
-✨  Alternatively, you can use or adapt an [existing ChooChoo project](). See the [Quick Start guide]() for more details.
+✨ This repository contains an empty ChooChoo project for those who want to start from scratch. Setup is quick and doesn't require any downloads - see the Quick Start guide (TODO: insert link).
+
+✨  Alternatively, you can use or adapt an existing ChooChoo project (TODO: insert link). See the Quick Start guide (TODO: insert link) for more details.
 
 ✨ ChooChoo is free to use and adapt under a Creative Commons License. Pretty-please say hi :wave: if you are using ChooChoo - you can find my email address [here](https://lucydot.github.io/about/).
 
