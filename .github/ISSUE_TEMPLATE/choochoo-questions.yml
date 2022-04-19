@@ -38,6 +38,8 @@ body:
       required: true
   - type: checkboxes
     id: checklist
+    validations:
+      required: true
     attributes:
       label: Checklist items
       description: Which checklist item(s) does your question assess?
@@ -46,5 +48,4 @@ body:
         - label: Markdown
         - label: Fun with Python
         - label: Got to love Github even though it's owned by microsoft
-    validations:
-      required: true
+
