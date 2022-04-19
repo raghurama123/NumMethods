@@ -44,8 +44,8 @@ body:
       label: Checklist items
       description: Which checklist item(s) does your question assess?
       options:
-        - label: Python lists
-        - label: Markdown
-        - label: Fun with Python
-        - label: Got to love Github even though it's owned by microsoft
+        - Python lists
+        - Markdown
+        - Fun with Python
+        - Got to love Github even though it's owned by microsoft
 
