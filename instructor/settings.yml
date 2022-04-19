@@ -12,4 +12,4 @@ instructors:
 - lucydot
 
 # Choochoo project options - editing encouraged
-gh_pages: true      # enable or disable the gh_pages branch
+gh_pages: false      # enable or disable the gh_pages branch
