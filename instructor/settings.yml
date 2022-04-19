@@ -1,6 +1,8 @@
 # Choochoo project settings - must be edited
 project_repo: lucydot/ChooChoo
 project_title: Choochoo template repository
+choochoo_branch: main
+gh-pages-branch: gh-pages
 
 # Choochoo project users - must be edited
 students:
@@ -12,4 +14,5 @@ instructors:
 - lucydot
 
 # Choochoo project options - editing encouraged
-gh_pages: false      # enable or disable the gh_pages branch
+gh-pages: false      # enable or disable the gh_pages branch
+
