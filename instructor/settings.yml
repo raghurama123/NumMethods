@@ -15,4 +15,5 @@ instructors:
 
 # Choochoo project options - editing encouraged
 gh-pages: false      # enable or disable the gh_pages branch
+questions: true      # enable or disable choochoo questions functionality
 
