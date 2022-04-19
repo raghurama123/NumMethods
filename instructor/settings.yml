@@ -1,10 +1,10 @@
+project_repo: lucydot/ChooChoo
+project_title: Choochoo template repository
+students:
+- choochoo-bot
+- lucydot
 admins:
 - lucydot
 instructors:
 - lucydot
-project_repo: lucydot/ChooChoo
-project_title: Python for Physical Scientists
-students:
-- matilda
-- choochoo-bot
-- lucydot
+gh_pages: true
