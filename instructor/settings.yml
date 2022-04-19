@@ -2,7 +2,7 @@
 project_repo: lucydot/ChooChoo
 project_title: Choochoo template repository
 choochoo_branch: main
-gh-pages-branch: gh-pages
+gh-pages_branch: gh-pages
 
 # Choochoo project users - must be edited
 students:
