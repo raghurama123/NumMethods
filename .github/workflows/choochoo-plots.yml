@@ -18,7 +18,7 @@ jobs:
       uses:  KJ002/read-yaml@main
       with: 
         file: './instructor/settings.yml'
-        key-path: '["gh_pages"]'   
+        key-path: '["gh-pages"]'   
     - name: Deploy 🚀
       if: |
         steps.read-yaml.outputs.data == 'true' ||
