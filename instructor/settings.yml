@@ -17,4 +17,5 @@ instructors:
 gh-pages: false      # enable or disable the gh_pages branch
 questions: true      # enable or disable choochoo questions functionality
 votes_required: 8    # miniimum number of votes before proposed question is accepted
+web_address: lucydot.github.io/ChooChoo
 
