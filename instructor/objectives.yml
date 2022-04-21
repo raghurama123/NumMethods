@@ -27,6 +27,14 @@ sections:
       - name: add  to a list
         tutorials: [addlists.ipynb]
         questions: [070122_lists.yml]
-        links: []
+        links: [test.md]
+        
+  - name: Other
+    tutorials:
+    questions:
+    links:
+    objectives:
+      - name: stuff
+        tutorials: []
   
 
