@@ -1,7 +1,7 @@
 admins:
 - lucydot
 choochoo_branch: main
-gh-pages: false
+gh-pages: true
 gh-pages_branch: gh-pages
 instructors:
 - lucydot
