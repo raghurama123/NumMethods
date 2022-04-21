@@ -1,21 +1,16 @@
-# Choochoo project settings - must be edited
+admins:
+- lucydot
+choochoo_branch: main
+gh-pages: false
+gh-pages_branch: gh-pages
+instructors:
+- lucydot
+- choochoo-bot
 project_repo: lucydot/ChooChoo
 project_title: Choochoo template repository
-choochoo_branch: main
-gh-pages_branch: gh-pages
-
-# Choochoo project users - must be edited
+questions: true
 students:
 - choochoo-bot
 - lucydot
-admins:
-- lucydot
-instructors:
-- lucydot
-
-# Choochoo project options - editing encouraged
-gh-pages: false      # enable or disable the gh_pages branch
-questions: true      # enable or disable choochoo questions functionality
-votes_required: 8    # miniimum number of votes before proposed question is accepted
+votes_required: 8
 web_address: lucydot.github.io/ChooChoo
-
