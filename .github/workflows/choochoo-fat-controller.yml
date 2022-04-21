@@ -12,6 +12,22 @@ on:
     - created
     
 jobs:
+
+  check_question_ticket:
+    if: github.event.label.name == 'question proposal' 
+    runs-on: ubuntu-latest
+    env: 
+      ISSUE_NUMBER: ${{ github.event.issue.number }}
+      GITHUB_REPOSITORY: ${{ github.repository }}
+      GH_TOKEN: ${{ secrets.BOT_ACCESS_TOKEN }}
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - run: pip install https://github.com/lucydot/choochoo/archive/main.zip
+    - run: ${{ format('check_person {0}', github.actor) }}
+      
   check_instructor_ticket:
     if: github.event.label.name == 'instructor' 
     runs-on: ubuntu-latest
@@ -60,12 +76,13 @@ jobs:
       github.actor == github.event.issue.user.login &&
       !contains( github.event.issue.labels.*.name, 'instructor') &&
       !contains( github.event.issue.labels.*.name, 'student') &&
+      !contains( github.event.issue.labels.*.name, 'question proposal') &&
       startsWith(github.event.comment.body,'choochoo ')
     runs-on: ubuntu-latest
     steps:
     - uses: ben-z/actions-comment-on-issue@1.0.2
       with:
-        message: "**[checks ticket]** To run choochoo commands your issue must be labelled with `instructor` or `student`"
+        message: "**[checks ticket]** To run choochoo commands your issue must be labelled with `instructor`, `student` or `question proposal`"
         GITHUB_TOKEN: ${{ secrets.BOT_ACCESS_TOKEN }}
 
   choochoo:
@@ -74,7 +91,8 @@ jobs:
       github.actor == github.event.issue.user.login &&
       (
         contains( github.event.issue.labels.*.name, 'instructor') ||
-        contains( github.event.issue.labels.*.name, 'student')
+        contains( github.event.issue.labels.*.name, 'student') ||
+        contains( github.event.issue.labels.*.name, 'question proposal')
       ) &&
       startsWith(github.event.comment.body,'choochoo ')
     runs-on: ubuntu-latest
