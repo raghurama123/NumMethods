@@ -43,6 +43,7 @@ body:
     - label: use basic Markdown in a notebook
     - label: create a list
     - label: add  to a list
+    - label: stuff
   id: checklist
   type: checkboxes
   validations:
