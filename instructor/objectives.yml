@@ -30,9 +30,6 @@ sections:
         links: [test.md]
         
   - name: Other
-    tutorials:
-    questions:
-    links:
     objectives:
       - name: stuff
         tutorials: []
