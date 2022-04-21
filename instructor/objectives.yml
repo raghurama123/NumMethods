@@ -30,8 +30,13 @@ sections:
         links: [test.md]
         
   - name: Other
+    tutorials: [lists.ipynb]
+    questions: []
+    links: [https://nu-cem.github.io/CompPhys/2021/08/02/01-lists]
     objectives:
       - name: stuff
         tutorials: []
+        questions: []
+        links: []
   
 
