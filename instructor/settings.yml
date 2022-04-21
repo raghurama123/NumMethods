@@ -6,6 +6,7 @@ gh-pages_branch: gh-pages
 instructors:
 - lucydot
 - choochoo-bot
+- choochoo-bot
 project_repo: lucydot/ChooChoo
 project_title: Choochoo template repository
 questions: true
