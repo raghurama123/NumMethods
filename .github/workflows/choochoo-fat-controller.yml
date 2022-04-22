@@ -110,7 +110,6 @@ jobs:
         python-version: '3.x'
     - run: pip install https://github.com/lucydot/choochoo/archive/main.zip
     - run: ${{ github.event.comment.body }}
-    - run: touch ./questions/test.md
     - uses: EndBug/add-and-commit@v4  
       with:
         author_name: choochoo-bot
