@@ -88,14 +88,38 @@ jobs:
 
   choochoo:
     if: |
-      (github.event_name == 'issue_comment' && 
+      github.event_name == 'issue_comment' && 
       github.actor == github.event.issue.user.login &&
       (
         contains( github.event.issue.labels.*.name, 'instructor') ||
         contains( github.event.issue.labels.*.name, 'student') ||
       ) &&
-      startsWith(github.event.comment.body,'choochoo ') ) ||
-      (github.event_name == 'issue_comment' && 
+      startsWith(github.event.comment.body,'choochoo ') 
+      runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
+    env: 
+      GH_TOKEN: ${{ secrets.BOT_ACCESS_TOKEN }}
+      ISSUE_NUMBER: ${{ github.event.issue.number }}
+      GITHUB_REPOSITORY: ${{ github.repository }}
+      GITHUB_ACTOR: ${{ github.actor }}
+    steps:
+    - uses: actions/checkout@v2
+      with: 
+        token: ${{ secrets.BOT_ACCESS_TOKEN }}
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - run: pip install https://github.com/lucydot/choochoo/archive/main.zip
+    - run: ${{ github.event.comment.body }}
+    - uses: EndBug/add-and-commit@v4  
+      with:
+        author_name: choochoo-bot
+        message: "choochoo command completed"
+        add: "."
+      
+  choochoo-question:  
+    if:
+       github.event_name == 'issue_comment' && 
        contains( github.event.issue.labels.*.name, 'question proposal') &&
        startsWith(github.event.comment.body,'choochoo ') )
     runs-on: ubuntu-latest
