@@ -119,7 +119,8 @@ jobs:
   choochoo-question:  
     if: |
        github.event_name == 'issue_comment' && 
-       contains( github.event.issue.labels.*.name, 'question proposal') &&
+       (contains( github.event.issue.labels.*.name, 'question proposal') ||
+        contains( github.event.issue.labels.*.name, 'accepted question')  ) &&
        startsWith(github.event.comment.body,'choochoo ') 
     runs-on: ubuntu-latest
     env: 
