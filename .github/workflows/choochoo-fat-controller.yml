@@ -78,12 +78,13 @@ jobs:
       !contains( github.event.issue.labels.*.name, 'instructor') &&
       !contains( github.event.issue.labels.*.name, 'student') &&
       !contains( github.event.issue.labels.*.name, 'question proposal') &&
+      !contains( github.event.issue.labels.*.name, 'accepted question') &&
       startsWith(github.event.comment.body,'choochoo ')
     runs-on: ubuntu-latest
     steps:
     - uses: ben-z/actions-comment-on-issue@1.0.2
       with:
-        message: "**[checks ticket]** To run choochoo commands your issue must be labelled with `instructor`, `student` or `question proposal`"
+        message: "**[checks ticket]** To run choochoo commands your issue must be labelled with `instructor`, `student`, `question proposal` or `accepted question`."
         GITHUB_TOKEN: ${{ secrets.BOT_ACCESS_TOKEN }}
 
   choochoo:
