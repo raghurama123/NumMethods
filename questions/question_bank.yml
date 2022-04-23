@@ -1,32 +1,44 @@
-- question:
-  title: lists and things
-  authors: 
-    - regn 
-    - re
-  checklist_items: 
-    - lists
-    - markdown
-  question: |
-    Hey yes
+- answer: 'No waY!!
 
-    ` I wonder what it's like`
-
-    yuyp
-  answer: |
-    No waY!!
 
     `is it?`
-- question:
-  title: markdown
-  authors: 
-    - sfvs 
-    - sfb
+
+    '
+  authors:
+  - regn
+  - re
   checklist_items:
-   - markdown
-  question: |
-    hellow
-  answer: |
-    If ti isn't.
+  - lists
+  - markdown
+  question: 'Hey yes
+
+
+    ` I wonder what it''s like`
+
+
+    yuyp
+
+    '
+  title: lists and things
+- answer: 'If ti isn''t.
+
 
     [here](https://google.com).
 
+    '
+  authors:
+  - sfvs
+  - sfb
+  checklist_items:
+  - markdown
+  question: 'hellow
+
+    '
+  title: markdown
+- - answer: sfgdfbdf
+    authors:
+    - '@lucydot'
+    checklist_items:
+    - []
+    question: "test\r\n\r\n`sojdgnsogj`?"
+    title: TRial
