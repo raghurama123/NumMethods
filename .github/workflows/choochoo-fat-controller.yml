@@ -95,7 +95,6 @@ jobs:
         contains( github.event.issue.labels.*.name, 'student') ||
       ) &&
       startsWith(github.event.comment.body,'choochoo ') 
-      runs-on: ubuntu-latest
     runs-on: ubuntu-latest
     env: 
       GH_TOKEN: ${{ secrets.BOT_ACCESS_TOKEN }}
@@ -118,10 +117,10 @@ jobs:
         add: "."
       
   choochoo-question:  
-    if:
+    if: |
        github.event_name == 'issue_comment' && 
        contains( github.event.issue.labels.*.name, 'question proposal') &&
-       startsWith(github.event.comment.body,'choochoo ') )
+       startsWith(github.event.comment.body,'choochoo ') 
     runs-on: ubuntu-latest
     env: 
       GH_TOKEN: ${{ secrets.BOT_ACCESS_TOKEN }}
