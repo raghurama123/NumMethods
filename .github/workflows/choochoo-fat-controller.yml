@@ -94,7 +94,7 @@ jobs:
         contains( github.event.issue.labels.*.name, 'instructor') ||
         contains( github.event.issue.labels.*.name, 'student') ||
       ) &&
-      startsWith(github.event.comment.body,'choochoo ')) ||
+      startsWith(github.event.comment.body,'choochoo ') ) ||
       (github.event_name == 'issue_comment' && 
        contains( github.event.issue.labels.*.name, 'question proposal') &&
        startsWith(github.event.comment.body,'choochoo ') )
