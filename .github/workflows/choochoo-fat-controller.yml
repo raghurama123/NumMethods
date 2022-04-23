@@ -92,9 +92,9 @@ jobs:
       github.actor == github.event.issue.user.login &&
       (
         contains( github.event.issue.labels.*.name, 'instructor') ||
-        contains( github.event.issue.labels.*.name, 'student') ||
+        contains( github.event.issue.labels.*.name, 'student')
       ) &&
-      startsWith(github.event.comment.body,'choochoo ') 
+      startsWith(github.event.comment.body,'choochoo ')
     runs-on: ubuntu-latest
     env: 
       GH_TOKEN: ${{ secrets.BOT_ACCESS_TOKEN }}
