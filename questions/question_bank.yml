@@ -10,6 +10,7 @@
   checklist_items:
   - lists
   - markdown
+  - open and save a Jupyter Notebook
   question: 'Hey yes
 
 
@@ -31,6 +32,8 @@
   - sfb
   checklist_items:
   - markdown
+  - open and save a Jupyter Notebook
+  - use basic Markdown in a notebook
   question: 'hellow
 
     '
@@ -42,5 +45,6 @@
   checklist_items:
   - create a list
   - stuff
+  - use basic Markdown in a notebook
   question: dbdgb
   title: dbdnandsome
