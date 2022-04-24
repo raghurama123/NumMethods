@@ -1,11 +1,14 @@
 ## lists and things
 **authors**: regn re
+
 **checklist items**: lists markdown
+
 Hey yes
 
 ` I wonder what it's like`
 
 yuyp
+
 
 <details>
 <summary>Answer</summary>
@@ -17,8 +20,11 @@ No waY!!
 
 ## markdown
 **authors**: sfvs sfb
+
 **checklist items**: markdown
+
 hellow
+
 
 <details>
 <summary>Answer</summary>
@@ -30,8 +36,11 @@ If ti isn't.
 
 ## dbdnandsome
 **authors**: @lucydot @sfgjobnsofg
+
 **checklist items**: create a list stuff
+
 dbdgb
+
 <details>
 <summary>Answer</summary>
 dfbdfb
