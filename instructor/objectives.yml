@@ -14,6 +14,7 @@ sections:
     - https://lucydot.github.io/ChooChoo-template/questions/question_bank#lists-and-things
     tutorials:
     - markdown.ipynb
+    - https://lucydot.github.io/ChooChoo-template/tutorials/lists
   questions: []
   tutorials:
   - running_python.ipynb
