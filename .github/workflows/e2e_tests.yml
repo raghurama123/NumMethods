@@ -1,3 +1,10 @@
+name: Sync Gh-pages Fork
+
+on:
+  schedule:
+    - cron: '52 05 * * *' # 05:52 each day
+  workflow_dispatch: # on button click
+
 jobs:
 
   check_question_ticket:
