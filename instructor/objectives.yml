@@ -7,7 +7,8 @@ sections:
     name: open and save a Jupyter Notebook
     questions: []
     tutorials: []
-  - links: []
+  - links:
+    - https://lucydot.github.io/
     name: use basic Markdown in a notebook
     questions:
     - 070122_markdown.yml
