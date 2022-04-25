@@ -17,7 +17,7 @@ To list all possible choochoo commands type `choochoo list commands` in comment 
 
 ### Running Python | [tutorials](running_python.ipynb)  |  [links](https://nu-cem.github.io/CompPhys/2021/08/02/01-Running_Python)  | 
 1) - [ ] open and save a Jupyter Notebook |    
-2) - [ ] use basic Markdown in a notebook | [T1](markdown.ipynb) [T2](https://lucydot.github.io/ChooChoo-template/tutorials/lists)  | [Q1](070122_markdown.yml) [Q2](https://lucydot.github.io/ChooChoo-template/questions/question_bank#lists-and-things)  |  
+2) - [ ] use basic Markdown in a notebook | [T1](markdown.ipynb) [T2](https://lucydot.github.io/ChooChoo-template/tutorials/lists)  | [Q1](070122_markdown.yml) [Q2](https://lucydot.github.io/ChooChoo-template/questions/question_bank#lists-and-things)  | [links](https://lucydot.github.io/)  | 
 
 
 ### Lists | [tutorials](lists.ipynb)  |  [links](https://nu-cem.github.io/CompPhys/2021/08/02/01-lists)  | 
