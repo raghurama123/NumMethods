@@ -1,4 +1,4 @@
-name: Compile tutorial and publish
+name: Publish tutorials
 
 on:
   push:
