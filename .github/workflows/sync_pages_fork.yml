@@ -2,7 +2,7 @@ name: Sync Gh-pages Fork
 
 on:
   schedule:
-    - cron: '32 04 * * *' # 04:32 each day
+    - cron: '32 05 * * *' # 05:32 each day
   workflow_dispatch: # on button click
 
 jobs:
@@ -22,7 +22,7 @@ jobs:
       id: sync
       uses: aormsby/Fork-Sync-With-Upstream-action@v3.2
       with:
-        target_sync_branch: gh_pages
+        target_sync_branch: gh-pages
         # REQUIRED 'target_repo_token' exactly like this!
         target_repo_token: ${{ secrets.GITHUB_TOKEN }}
         upstream_sync_branch: main
