@@ -65,12 +65,12 @@ jobs:
         
   choochoo-cli-student-thread:
     runs-on: ubuntu-latest
-     env: 
+    env: 
       GH_TOKEN: ${{ secrets.BOT_ACCESS_TOKEN }}
       ISSUE_NUMBER: 29
       GITHUB_REPOSITORY: ${{ github.repository }}
       GITHUB_ACTOR: ${{ github.actor }}
-   steps:
+    steps:
     - uses: actions/checkout@v2
       with: 
         token: ${{ secrets.BOT_ACCESS_TOKEN }}
