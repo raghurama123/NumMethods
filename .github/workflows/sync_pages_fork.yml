@@ -24,7 +24,7 @@ jobs:
       with:
         target_sync_branch: gh-pages
         # REQUIRED 'target_repo_token' exactly like this!
-        target_repo_token: ${{ secrets.GITHUB_TOKEN }}
+        target_repo_token: ${{ secrets.BOT_ACCESS_TOKEN }}
         upstream_sync_branch: main
         upstream_sync_repo: lucydot/choochoo-template
       
