@@ -1,7 +1,7 @@
 ## lists and things
 **authors**: regn re
 
-**checklist items**: lists markdown
+**checklist items**: lists markdown open and save a Jupyter Notebook
 
 Hey yes
 
@@ -21,7 +21,7 @@ No waY!!
 ## markdown
 **authors**: sfvs sfb
 
-**checklist items**: markdown
+**checklist items**: markdown open and save a Jupyter Notebook use basic Markdown in a notebook
 
 hellow
 
@@ -37,12 +37,24 @@ If ti isn't.
 ## dbdnandsome
 **authors**: @lucydot @sfgjobnsofg
 
-**checklist items**: create a list stuff
+**checklist items**: create a list stuff use basic Markdown in a notebook
 
 dbdgb
 
 <details>
 <summary>Answer</summary>
 dfbdfb
+</details>
+
+## sgdfh
+**authors**: @lucydot
+
+**checklist items**: create a list
+
+dfhdfh
+
+<details>
+<summary>Answer</summary>
+sfgsgsgs
 </details>
 
