@@ -31,13 +31,13 @@ jobs:
       with:
         python-version: '3.x'
     - run: pip install https://github.com/lucydot/choochoo/archive/main.zip
-    - run: ${{ format('check_instructor peppa pig', github.actor) }}
+    - run: ${{ format('check_instructor peppapig', github.actor) }}
     
   choochoo-cli-question-thread:
     runs-on: ubuntu-latest
     env: 
       GH_TOKEN: ${{ secrets.BOT_ACCESS_TOKEN }}
-      ISSUE_NUMBER: 23
+      ISSUE_NUMBER: 1
       GITHUB_REPOSITORY: ${{ github.repository }}
       GITHUB_ACTOR: ${{ github.actor }}
     steps:
@@ -55,7 +55,6 @@ jobs:
     - run: choochoo list people
     - run: choochoo build checklists
     - run: choochoo summarise class progress
-    - run: choochoo generate 2 questions for objectives 1 2 4
     - run: choochoo vote up
     - run: choochoo bank question
     - run: choochoo build question bank
@@ -67,7 +66,7 @@ jobs:
     runs-on: ubuntu-latest
     env: 
       GH_TOKEN: ${{ secrets.BOT_ACCESS_TOKEN }}
-      ISSUE_NUMBER: 29
+      ISSUE_NUMBER: 2
       GITHUB_REPOSITORY: ${{ github.repository }}
       GITHUB_ACTOR: ${{ github.actor }}
     steps:
@@ -79,6 +78,7 @@ jobs:
         python-version: '3.x'
     - run: pip install https://github.com/lucydot/choochoo/archive/main.zip
     - run: choochoo generate 1 questions    
+    - run: choochoo generate 1 questions for objectives 1 
         
   print_context:
     runs-on: ubuntu-latest
