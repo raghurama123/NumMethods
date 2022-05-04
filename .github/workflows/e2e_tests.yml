@@ -1,4 +1,4 @@
-name: Sync Gh-pages Fork
+name: E2E tests
 
 on:
   schedule:
