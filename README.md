@@ -8,22 +8,22 @@
 
 **Checklists and tutorials**
 
-    - 📋 Create checklists for your students to work through
-    - 🖊️ Link checklist items to tutorials written with Jupyter Notebooks or Markdown
+ - 📋 Create checklists for your students to work through
+ - 🖊️ Link checklist items to tutorials written with Jupyter Notebooks or Markdown
 
 **Student self-assessment**
 
-    - ❓ Link checklist items to a question bank
-    - 👩‍🎤 Allow students to generate their own personalised question sets
+- ❓ Link checklist items to a question bank
+- 👩‍🎤 Allow students to generate their own personalised question sets
 
 **Class collaboration**
 
-    - 📢 Enable students contributions to the question bank
-    - 👩‍🎤 Use student peer-review to decide which questions are published
+ - 📢 Enable students contributions to the question bank
+ - 👩‍🎤 Use student peer-review to decide which questions are published
 
 **Diagnostic teaching**
 
-    - 📊 Generate online plots to summarise class progress in real time
+- 📊 Generate online plots to summarise class progress in real time
 
 
 **The Python package that powers ChooChoo can be found [here](https://github.com/lucydot/ChooChoo/).**
