@@ -33,8 +33,6 @@ jobs:
       if: |
         steps.read-yaml.outputs.data == 'true' ||
         steps.read-yaml.outputs.data == 'True'
-      env:
-        GH_TOKEN:  ${{ secrets.BOT_ACCESS_TOKEN  }}
       run: |
          jupyter nbconvert --to html ./tutorials/*.ipynb  
          rm ./tutorials/*.ipynb 
