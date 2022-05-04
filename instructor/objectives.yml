@@ -7,18 +7,12 @@ sections:
     name: open and save a Jupyter Notebook
     questions: []
     tutorials: []
-  - links:
-    - https://lucydot.github.io/
+  - links: []
     name: use basic Markdown in a notebook
-    questions:
-    - 070122_markdown.yml
-    - https://lucydot.github.io/ChooChoo-template/questions/question_bank#lists-and-things
-    tutorials:
-    - markdown.ipynb
-    - https://lucydot.github.io/ChooChoo-template/tutorials/lists
+    questions: []
+    tutorials: []
   questions: []
   tutorials:
-  - running_python.ipynb
 - links:
   - https://nu-cem.github.io/CompPhys/2021/08/02/01-lists
   name: Lists
@@ -27,24 +21,10 @@ sections:
     name: create a list
     questions: []
     tutorials: []
-  - links:
-    - test.md
-    name: add  to a list
-    questions:
-    - 070122_lists.yml
-    tutorials:
-    - addlists.ipynb
-  questions: []
-  tutorials:
-  - lists.ipynb
-- links:
-  - https://nu-cem.github.io/CompPhys/2021/08/02/01-lists
-  name: Other
-  objectives:
   - links: []
-    name: stuff
+    name: add to a list
     questions: []
-    tutorials: []
+    tutorials:
+    - https://lucydot.github.io/ChooChoo-template/tutorials/lists
   questions: []
-  tutorials:
-  - lists.ipynb
+  tutorials: []
