@@ -19,7 +19,7 @@
 **Class collaboration**
 
     - 📢 Enable students contributions to the question bank
-    🧑🏽‍🤝‍🧑- 🏽 Use student peer-review to decide which questions are published
+    - 👩‍🎤 Use student peer-review to decide which questions are published
 
 **Diagnostic teaching**
 
