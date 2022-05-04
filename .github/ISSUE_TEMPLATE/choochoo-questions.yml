@@ -42,8 +42,7 @@ body:
     - label: open and save a Jupyter Notebook
     - label: use basic Markdown in a notebook
     - label: create a list
-    - label: add  to a list
-    - label: stuff
+    - label: add to a list
   id: checklist
   type: checkboxes
   validations:
