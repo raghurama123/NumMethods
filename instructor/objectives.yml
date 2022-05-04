@@ -12,7 +12,7 @@ sections:
     questions: []
     tutorials: []
   questions: []
-  tutorials:
+  tutorials: []
 - links:
   - https://nu-cem.github.io/CompPhys/2021/08/02/01-lists
   name: Lists
