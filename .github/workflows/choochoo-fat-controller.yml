@@ -14,7 +14,7 @@ on:
 jobs:
 
   check_question_ticket:
-    if: github.event.label.name == 'question proposal' 
+    if: github.event.label.name == 'question proposal' || github.event.label.name == 'student' 
     runs-on: ubuntu-latest
     env: 
       ISSUE_NUMBER: ${{ github.event.issue.number }}
@@ -26,7 +26,7 @@ jobs:
       with:
         python-version: '3.x'
     - run: pip install https://github.com/lucydot/choochoo/archive/main.zip
-    - run: ${{ format('check_student {0}', github.actor) }}
+    - run: ${{ format('check_participant {0}', github.actor) }}
       
   check_instructor_ticket:
     if: github.event.label.name == 'instructor' 
@@ -42,21 +42,6 @@ jobs:
         python-version: '3.x'
     - run: pip install https://github.com/lucydot/choochoo/archive/main.zip
     - run: ${{ format('check_instructor {0}', github.actor) }}
-      
-  check_student_ticket:
-    if: github.event.label.name == 'student' 
-    runs-on: ubuntu-latest
-    env: 
-      ISSUE_NUMBER: ${{ github.event.issue.number }}
-      GITHUB_REPOSITORY: ${{ github.repository }}
-      GH_TOKEN: ${{ secrets.BOT_ACCESS_TOKEN }}
-    steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-python@v2
-      with:
-        python-version: '3.x'
-    - run: pip install https://github.com/lucydot/choochoo/archive/main.zip
-    - run: ${{ format('check_student {0}', github.actor) }}
     
   not_issue_owner:
     if: |
