@@ -1,0 +1,92 @@
+name: E2E tests
+
+on:
+  schedule:
+    - cron: '52 05 * * *' # 05:52 each day
+  workflow_dispatch: # on button click
+
+jobs:
+
+  check_question_ticket:
+    runs-on: ubuntu-latest
+    env: 
+      GITHUB_REPOSITORY: ${{ github.repository }}
+      GH_TOKEN: ${{ secrets.BOT_ACCESS_TOKEN }}
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - run: pip install https://github.com/lucydot/choochoo/archive/main.zip
+    - run: ${{ format('check_student lucydot', github.actor) }}
+      
+  check_instructor_ticket:
+    runs-on: ubuntu-latest
+    env: 
+      GITHUB_REPOSITORY: ${{ github.repository }}
+      GH_TOKEN: ${{ secrets.BOT_ACCESS_TOKEN }}
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - run: pip install https://github.com/lucydot/choochoo/archive/main.zip
+    - run: ${{ format('check_instructor peppapig', github.actor) }}
+    
+  choochoo-cli-question-thread:
+    runs-on: ubuntu-latest
+    env: 
+      GH_TOKEN: ${{ secrets.BOT_ACCESS_TOKEN }}
+      ISSUE_NUMBER: 3
+      GITHUB_REPOSITORY: ${{ github.repository }}
+      GITHUB_ACTOR: ${{ github.actor }}
+    steps:
+    - uses: actions/checkout@v2
+      with: 
+        token: ${{ secrets.BOT_ACCESS_TOKEN }}
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - run: pip install https://github.com/lucydot/choochoo/archive/main.zip
+    - run: choochoo check @lucydot is instructor
+    - run: choochoo add @choochoo-bot as admin
+    - run: choochoo remove @choochoo-bot as admin
+    - run: choochoo check @lucydot is student
+    - run: choochoo list people
+    - run: choochoo build checklists
+    - run: choochoo summarise class progress
+    - run: choochoo vote up
+    - run: choochoo bank question
+    - run: choochoo build question bank
+    - run: choochoo add question https://github.com to objective 1
+    - run: choochoo add link https://github.com to objective 3
+    - run: choochoo add tutorial https://github.com to objective 2
+        
+  choochoo-cli-student-thread:
+    runs-on: ubuntu-latest
+    env: 
+      GH_TOKEN: ${{ secrets.BOT_ACCESS_TOKEN }}
+      ISSUE_NUMBER: 4
+      GITHUB_REPOSITORY: ${{ github.repository }}
+      GITHUB_ACTOR: ${{ github.actor }}
+    steps:
+    - uses: actions/checkout@v2
+      with: 
+        token: ${{ secrets.BOT_ACCESS_TOKEN }}
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - run: pip install https://github.com/lucydot/choochoo/archive/main.zip
+    - run: choochoo generate 1 questions    
+    - run: choochoo generate 1 questions for objectives 1 
+        
+  print_context:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_CONTEXT: ${{ toJson(github) }}
+    steps:
+    - run: echo "$GITHUB_CONTEXT"
+
+
+
+
