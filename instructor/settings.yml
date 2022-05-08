@@ -19,4 +19,5 @@ gh-pages: true
 # Advanced options (expert users only)
 choochoo_branch: main
 gh-pages_branch: gh-pages
+choochoo_path: ./
 
