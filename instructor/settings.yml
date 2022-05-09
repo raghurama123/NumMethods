@@ -15,7 +15,7 @@ web_address: https://lucydot.github.io/ChooChoo-template
 questions: true
 votes_required: 3
 gh-pages: true
-
-# Advanced options (expert users only)
 gh-pages_branch: gh-pages
+
+
 
