@@ -50,5 +50,5 @@ body:
 description: Propose a question to include in this ChooChoo project
 labels:
 - question proposal
-name: Question thread
+name: ChooChoo question thread
 title: Question proposal
