@@ -1,12 +1,14 @@
 # Key settings (must edit)
 project_title: Choochoo template repository
-project_repo: lucydot/ChooChoo-template
+project_repo: raghurama123/NumMethods
 admins:
+- raghurama123
 - lucydot
 - choochoo-bot
 instructors:
-- lucydot
+- raghurama123
 students:
+- raghurama123
 - lucydot
 - choochoo-bot
 web_address: https://lucydot.github.io/ChooChoo-template
