@@ -5,10 +5,10 @@
 # Each checklist contains one or more sections
 sections:
 
-- name: Running Python
+- name: Basic Python Usage
 
-  links:
-  - https://nu-cem.github.io/CompPhys/2021/08/02/01-Running_Python
+  links: Basics
+  - https://github.com/raghurama123/NumMethods/blob/main/_notebooks/nm_01_Basics.ipynb
   questions: []
   tutorials: []
   
@@ -24,23 +24,4 @@ sections:
     links: []
     questions: []
     tutorials: []
-
-- name: Lists
-
-  links:
-  - https://nu-cem.github.io/CompPhys/2021/08/02/01-lists
-  questions: []
-  tutorials: []
-  
-  objectives:
-  
-  - name: create a list
-    links: []
-    questions: []
-    tutorials: []
-  - name: add to a list
-    links: []
-    questions: []
-    tutorials:
-    - https://lucydot.github.io/ChooChoo-template/tutorials/lists
 
